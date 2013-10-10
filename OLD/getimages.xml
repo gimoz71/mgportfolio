@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<images>
+	<image filename="images1.jpg" captions="immagine 1" width="320" height="200" />
+	<image filename="images2.jpg" captions="immagine 2" width="320" height="200" />
+	<image filename="images3.jpg" captions="immagine 3" width="320" height="200" />
+</images>

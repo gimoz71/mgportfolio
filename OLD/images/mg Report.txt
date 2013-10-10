@@ -1,0 +1,161 @@
+mg.swf Rapporto filmato
+------------------------
+
+Fotogramma #    Fotogramma byte    Totale byte    Scena
+------------    ---------------    -----------    ----------------
+      1          26970          26970    Scena 1 (Fotogramma di esportazione delle classi AS 2.0)
+      2        2166533        2193503    
+
+Scena                        Forma byte    Testo byte    ActionScript byte
+-------------------------    ----------    ----------    -----------------
+Scena 1                               65             0                   583
+
+Simbolo                       Forma byte    Testo byte    ActionScript byte
+--------------------------    ----------    ----------    -----------------
+galleria                               0             0                  2531
+Tween 3                                0             0                     0
+Tween 1                                0             0                     0
+chiudi                               119            36                     0
+scintilla                              0             0                     0
+word                                   0             0                     0
+acrobat                                0             0                     0
+Interpolazione 1                       0             0                     0
+carta                                240             0                     0
+fondino                                0             0                     0
+Curriculum_mc                          0           216                   842
+portfolio_mc                           0             0                   774
+mc_mg_flat                           423             0                     0
+fondo                                 62             0                     0
+back                                  37            74                     0
+portfolio                              0            98                     0
+curriculumvitae                        0           128                     0
+MGDesign                               0            45                     0
+menu_base                             64             0                   268
+mgblur                                 0             0                     0
+wave                                 957             0                     0
+mg                                     0             0                     0
+mg wire                                0             0                     0
+Simbolo 1                          12265             0                     4
+ffh_sbclasses                          0             0                  4121
+ffh_sb_deadpreview                    38             0                    83
+ffh_sbskin1_backbar                   36             0                     0
+ffh_sbskin1_inner                     41             0                     0
+ffh_sbskin1_outer                      0             0                     0
+ffh_sbskin1_arrow                     45             0                     0
+ffh_sbskin1_up_b                       0             0                     0
+ffh_sbskin1_up                         0             0                     0
+ffh_sbskin1_down_b                    35             0                     0
+ffh_sbskin1_down                       0             0                     0
+Resizable Clip Compatibility           0             0                  1316
+Aligner Class                          0             0                  5323
+Generic Align Component               37             0                   920
+Align: this                            0             0                     0
+FFH Text Scrollbar (Skin 1)            0             0                  1344
+Tween 2                                0             0                     0
+loader                                 0            76                     2
+bg_gal                                38             0                     0
+loader_gal                            40             0                     0
+image_gal                              0             0                     0
+img_gal                                0             0                     0
+btnNext                                0             0                     0
+btnPrev                                0             0                     0
+
+Nome del carattere                 byte        Caratteri    
+-------------------------------    --------    -------------
+Verdana  10 pts                 455    celos
+Verdana                          32    
+Arial-Black Grassetto           770    DEGINS
+Arial-Black                    4072     %.0123456789CPVabcefiklmortu
+
+ActionScript byte    Posizione
+-----------------    ---------
+                 1    Resizable Clip Compatibility:Layer 1:1
+                 1    Aligner Class:Class:1
+                37    Generic Align Component:Class:1
+                 1    FFH Text Scrollbar (Skin 1):Design:1
+                83    ffh_sb_deadpreview:Layer 1:1
+               487    FFH Text Scrollbar (Skin 1):Design:1:Non è stato assegnato un nome istanza(Align: this)
+               491    FFH Text Scrollbar (Skin 1):Design:1:Non è stato assegnato un nome istanza(Align: this)
+                 1    ffh_sbclasses:Layer 1:1
+               280    Scena 1:Livello 3:1
+                 2    loader:Layer 2:1
+              5322    Aligner Class:Class:1
+               883    Generic Align Component:Class:1
+              4120    ffh_sbclasses:Layer 1:1
+               365    FFH Text Scrollbar (Skin 1):Design:1
+              1315    Resizable Clip Compatibility:Layer 1:1
+               303    Scena 1:Livello 3:2
+                 2    menu_base:Livello 1:27
+                90    menu_base:Portfolio:27:Non è stato assegnato un nome istanza(portfolio)
+                91    menu_base:Curriculum Vitae:27:Non è stato assegnato un nome istanza(curriculumvitae)
+                81    menu_base:Livello 6:48:Non è stato assegnato un nome istanza(back)
+                 2    menu_base:Livello 1:55
+               212    Curriculum_mc:Livello 6:8
+               562    Curriculum_mc:Livello 6:9
+                68    Curriculum_mc:Livello 7:9:Non è stato assegnato un nome istanza(FFH Text Scrollbar (Skin 1))
+                 2    menu_base:Livello 1:83
+               212    portfolio_mc:Livello 6:8
+               562    portfolio_mc:Livello 6:9
+               609    galleria:Livello 1:1
+              1922    galleria:Livello 1:3
+                 2    Simbolo 1:AS:28
+                 2    Simbolo 1:AS:73
+              6421    Classi ActionScript 2.0
+
+Bitmap                     Compresso    Compressione
+-----------------------    ---------  ---------  ------------
+mb_wire_mblur                  15663     1228800   Qualità JPEG=49
+mb_wire                        14368     1228800   Qualità JPEG=49
+mg0000.png                     47686     1228800   Qualità JPEG=50
+icona_word                       254        3840   Senza perdita
+icona_acrobat                    465        4096   Senza perdita
+details_btnNext                  219       10000   Senza perdita
+mg0001.png                     48712     1228800   Qualità JPEG=50
+mg0002.png                     49839     1228800   Qualità JPEG=50
+mg0003.png                     49925     1228800   Qualità JPEG=50
+mg0004.png                     50015     1228800   Qualità JPEG=50
+mg0005.png                     50031     1228800   Qualità JPEG=50
+mg0006.png                     49460     1228800   Qualità JPEG=50
+mg0007.png                     48959     1228800   Qualità JPEG=50
+mg0008.png                     47742     1228800   Qualità JPEG=50
+mg0009.png                     47455     1228800   Qualità JPEG=50
+mg0010.png                     46304     1228800   Qualità JPEG=50
+mg0011.png                     45809     1228800   Qualità JPEG=50
+mg0012.png                     45241     1228800   Qualità JPEG=50
+mg0013.png                     46095     1228800   Qualità JPEG=50
+mg0014.png                     47005     1228800   Qualità JPEG=50
+mg0015.png                     47658     1228800   Qualità JPEG=50
+mg0016.png                     48897     1228800   Qualità JPEG=50
+mg0017.png                     50274     1228800   Qualità JPEG=50
+mg0018.png                     53450     1228800   Qualità JPEG=50
+mg0019.png                     55975     1228800   Qualità JPEG=50
+mg0020.png                     58017     1228800   Qualità JPEG=50
+mg0021.png                     59920     1228800   Qualità JPEG=50
+mg0022.png                     61509     1228800   Qualità JPEG=50
+mg0023.png                     64232     1228800   Qualità JPEG=50
+mg0024.png                     66455     1228800   Qualità JPEG=50
+mg0025.png                     69121     1228800   Qualità JPEG=50
+mg0026.png                     70138     1228800   Qualità JPEG=50
+mg0027.png                     69935     1228800   Qualità JPEG=50
+mg0028.png                     69907     1228800   Qualità JPEG=50
+mg0029.png                     68410     1228800   Qualità JPEG=50
+mg0030.png                     65871     1228800   Qualità JPEG=50
+mg0031.png                     61815     1228800   Qualità JPEG=50
+mg0032.png                     57520     1228800   Qualità JPEG=50
+mg0033.png                     53170     1228800   Qualità JPEG=50
+mg0034.png                     49433     1228800   Qualità JPEG=50
+mg0035.png                     44271     1228800   Qualità JPEG=50
+mg0036.png                     37368     1228800   Qualità JPEG=50
+mg0037.png                     31073     1228800   Qualità JPEG=50
+mg0038.png                     23583     1228800   Qualità JPEG=50
+mg0039.png                     17507     1228800   Qualità JPEG=50
+mg0040.png                     12861     1228800   Qualità JPEG=50
+mg0041.png                      6411     1228800   Qualità JPEG=50
+mg0042.png                      4499     1228800   Qualità JPEG=50
+mg0043.png                      2957     1228800   Qualità JPEG=50
+mg0044.png                      2446     1228800   Qualità JPEG=50
+mg0045.png                      2416     1228800   Qualità JPEG=50
+
+
+
+
