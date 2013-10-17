@@ -1,0 +1,80 @@
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: transparent url(../images/bg_50.png) 0px 0px;
+}
+
+.jScrollIntervalTrack { 
+	position: absolute;
+}
+
+/* CURSORE DELLO SLIDER */
+
+.jScrollPaneDrag {
+	position: absolute;
+	background: transparent url(../images/bg_verde_75.png) 0px 0px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jScrollPaneDrag:hover {
+	background: transparent url(../images/bg_verde_100.png) 0px 0px;
+}
+.jScrollPaneDrag:active {
+	background: transparent url(../images/bg_verde_100.png) 0px 0px;
+}
+.jScrollPaneDragLeft {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragRight {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+}
+a.jScrollArrowLeft {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 0;
+	text-indent: -2000px !important;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+	width: 10px;
+}
+a.jScrollArrowLeft:hover {
+	/*background-color: #f60;*/
+}
+
+a.jScrollArrowRight {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px !important;
+	overflow: hidden;
+	/*background-color: #666;*/
+	height: 9px;
+	width: 10px;
+}
+a.jScrollArrowRight:hover {
+	/*background-color: #f60;*/
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}

@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>VILLA GHIAIA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../style.css" type="text/css">
+<script language=JavaScript>
+	self.resizeTo(440 ,450);
+	window.moveTo(0,0);
+</script>
+<script language="javascript">function invalid() {
+if (document.email.T1.value.length < 2) {
+alert("Please enter your name");
+return false;
+}
+if (document.email.T2.value.length < 6) {
+alert("Please enter your email");
+return false;
+}
+if (document.email.T4.value.length < 8) {
+alert("You didn't choose an arrival date");
+return false;
+}
+if (document.email.T5.value.length < 8) {
+alert("You didn't choose a departure date");
+return false;
+}
+return true;
+}
+</script>
+</head>
+
+<BODY bgcolor="#FFFFFF" topmargin=0 leftmargin=0 marginwidth="0" marginheight="0">
+<form name="email" method="POST" action="feedback2.asp" onSubmit="return invalid();">
+  <table width="410" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td colspan="3"><img src="../immagini/logoform.gif" width="410" height="92"></td>
+    </tr>
+    <tr> 
+      <td colspan="3" class="corpo" height="8">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="200" class="corpo"> 
+        <div align="right">nome</div>
+      </td>
+      <td width="10" class="corpo">&nbsp;</td>
+      <td width="200" class="corpo"> 
+        <input type="text" name="T1">
+      </td>
+    </tr>
+    <tr> 
+      <td width="200" class="corpo"> 
+        <div align="right">e-mail</div>
+      </td>
+      <td width="10" class="corpo">&nbsp;</td>
+      <td width="200" class="corpo"> 
+        <input type="text" name="T2">
+      </td>
+    </tr>
+    <tr> 
+      <td width="200" class="corpo"> 
+        <div align="right">villa</div>
+      </td>
+      <td width="10" class="corpo">&nbsp;</td>
+      <td width="200" class="corpo"> 
+        <select name="T3">
+          <option value=""> </option>
+          <option value="capannina">capannina</option>
+          <option value="gemelle1">gemelle1</option>
+          <option value="gemelle2">gemelle2</option>
+          <option value="tirasotto">tirasotto</option>
+          <option value="casolare">casolare</option>
+          <option value="tiglio">tiglio</option>
+        </select>
+      </td>
+    </tr>
+    <tr> 
+      <td width="200" class="corpo"> 
+        <div align="right">
+          <DIV align=right>datum der ankunft (tt/mm/jjjj)</DIV>
+        </div>
+      </td>
+      <td width="10" class="corpo">&nbsp;</td>
+      <td width="200" class="corpo"> 
+        <input type="text" name="T4">
+      </td>
+    </tr>
+    <tr> 
+      <td width="200" class="corpo"> 
+        <div align="right">
+          <DIV align=right>datum der abfahrt (tt/mm/jjjj)</DIV>
+        </div>
+      </td>
+      <td width="10" class="corpo">&nbsp;</td>
+      <td width="200" class="corpo"> 
+        <input type="text" name="T5">
+      </td>
+    </tr>
+    <tr> 
+      <td width="200" class="corpo">&nbsp;</td>
+      <td width="10" class="corpo">&nbsp;</td>
+      <td width="200" class="corpo"> 
+        <div align="left"> 
+          <input type="submit" name="Submit" value="Pr&uuml;fen Sie Verf&uuml;gbarkeit">
+        </div>
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

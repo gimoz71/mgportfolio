@@ -1,0 +1,70 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+#box {
+	height:250px;
+	width:300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top: -200px;
+	margin-left: -150px;
+}
+#box2 {
+	height:400px;
+	width:770px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top: -200px;
+	margin-left: -385px;
+	padding: 0px;
+}
+.form {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	border: 1px solid #32373f;
+	background-color: #CCCCCC;
+
+}
+.testonero {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.testobianco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #66CC99;
+	text-decoration: none;
+
+}
+.testobianco2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #66CC99;
+	text-decoration: none;
+}
+a:visited {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFCC00;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+	color: #66CC99;
+}
+
+.corpo {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000}
+.corpobottone { font-family: "Times New Roman", Times, serif; font-size: 14px; color: #000000; text-decoration: none; font-weight: normal}
+.corpo+ {
+font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000
+}
