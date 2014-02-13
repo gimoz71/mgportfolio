@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	-webkit-font-smoothing: antialiased;
+	background: #000;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13.5px;
+	color: #FFF;
+	text-align: justify;
+    margin: 0px;
+    padding: 0px; 
+	overflow: hidden;
+}
+
+#image_holder {
+	display: none;
+	line-height: 0px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	z-index: -50;
+}
+	
+.main_image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+
+#wrapper {
+	display: block;
+	background: transparent url(../images/bg_scroll.png) 0px 0px;
+	height: 560px;
+    width: 100%;
+	position: absolute;
+    top: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -290px;
+}
+
+/* Larghezza calcolata per il contenitore principale *OBBLIGATORIA PER LA FINZIONALITA' DELLO SCROLLER ORIZZONTALE* */
+.scrollContainer{
+	width: 8213px;
+}
+.scrollContainer div.panel {
+	/*background: transparent url(../images/bg_50.png) 0px 0px;*/
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	height: 550px;
+	float: left;
+}
+
+
+.scrollContainer #home {
+	width: 1074px;
+	margin-right: 20px;
+}
+.scrollContainer #festival {
+	margin-right: 20px;
+	width: 1792px;
+}
+.scrollContainer #videoart {
+	margin-right: 20px;
+	width: 2186px;
+}
+.scrollContainer #music {
+	width: 1509px;
+}
+.scrollContainer #info {
+	margin-right: 20px;
+	width: 690px;
+}
+.scrollContainer #contacts {
+	margin-right: 20px;
+	width: 424px;
+}
+.scrollContainer #partners_sponsors {
+	width: 430px;
+}
+
+/* SUB MENU */
+
+ul.subMenu {
+	display: block;
+	width: 245px;
+	margin: 0px auto;
+    list-style: none;
+    padding: 0px;
+	
+}
+
+ul.subMenu li {
+	margin: 0px 10px;
+	float: left;
+    display: block;
+    width: 15px;
+	height: 20px;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -20px;
+}
+
+.scrollButtons.right {
+    right: -20px;
+}
+
+.hide {
+    display: none;
+}
+
+/*TOOLTIPS */
+
+#dynatip {
+	display:none;
+	background: transparent url(../images/bg_50.png) 0px 0px;
+	/*background:transparent url(/images/tooltip/black_arrow.png);*/
+	font-size:12px;
+	/*height:20px;*/
+	/*width:160px;*/
+	padding: 10px;
+	color:#fff;
+	z-index: 11;
+}
+
+/* override the arrow image of the tooltip */
+#dynatip.bottom {
+	background: transparent url(../images/bg_50.png) 0px 0px;
+	/*background:url(/images/tooltip/black_arrow_bottom.png);*/	
+	padding-top:40px;
+	height:55px;
+}

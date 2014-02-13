@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+.scroll-pane {
+	width: 100%;
+	padding-bottom: 10px;
+	height: 550px;
+	float: left;
+	overflow: hidden;
+}
+a.jScrollArrowLeft {
+	background: url(basic_arrow_up.gif) no-repeat 0 0;
+}
+a.jScrollArrowLeft:hover {
+	background-position: 0 -15px;
+}
+a.jScrollArrowRight {
+	background: url(basic_arrow_down.gif) no-repeat 0 0;
+}
+a.jScrollArrowRight:hover {
+	background-position: 0 -15px;
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	background-position: 0 -30px;
+}
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>LookAtFestival</title>
+<link rel="stylesheet" href="css/lookat_layout.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="css/lookat_style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="js/OLD/jquery.scrollTo-1.4.2.js" type="text/javascript"></script>
+<script src="js/OLD/jquery.localscroll-1.2.5.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/OLD/jquery.serialScroll-1.2.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/OLD/jquery-ui-1.8.custom.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/OLD/scroller.js" language="javascript" type="text/javascript"></script>
+
+<script src="js/OLD/slider.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/resize.js" type="text/javascript" charset="utf-8"></script>
+<style>
+
+#content-slider {
+	width: 100%;
+	height: 6px;
+	margin: 5px 0px;
+	background: transparent url(images/bg_50.png) 0px 0px;
+	position: relative;
+}
+.ui-slider-handle {
+	width: 12px;
+	height: 6px;
+	position: absolute;
+	top: 0px;
+	left: -6px;
+	background: #fff;
+}
+</style>
+</head>
+<body onload="resizeImageSCut();">
+<div id="wrapper">
+	<div id="slider">
+		<div class="navContainer">
+			<div style="position:absolute; top:150px;left: 0px;">
+				<img class="scrollButtons left" src="../images/scroll_left.png" />
+				<img class="scrollButtons right" src="../images/scroll_right.png" />
+			</div>
+			<ul class="navigation">
+				<li class="first"><a href="#home">HOME</a></li>
+				<li><a href="#festival">FESTIVAL</a></li>
+				<li><a href="#videoart">VIDEOART</a></li>
+				<li><a href="#music">MUSIC</a></li>
+				<li><a href="#info">INFO &amp; DATES</a></li>
+				<li><a href="#contacts">CONTACTS</a></li>
+				<li><a href="#partners_sponsors">PARTNERS &amp; SPONSORS</a></li>
+			</ul>
+			
+		</div>
+		
+		<div class="scroll">
+			<div class="scrollContainer">
+				<div class="panel home_panel" id="home">
+					<div class="logoPanel"></div>
+					<div class="mainIndex">
+						<h1 class="mainTitle">LookAt Festival <span>2010</span></h1>
+						<h2 class="tagLine">Video Art &amp; Music</h2>
+					</div>
+					<div class="home">
+						<div class="homeTitle">
+							<h1>Lucca</h1>
+							<h2>14-30 Maggio 2010</h2>
+						</div>
+					</div>
+				</div>
+				<div class="panel" id="festival">
+					<div class="festival">
+						<h1 class="festivalTitle">Festival</h1>
+						<p>LookAtFestival, mostra di videoinstallazioni e vetrina per eventi di musica elettronica nasce a Lucca nel  2007 all’interno di un  contesto di giovani creativi interessati alle nuove forme dell’arte contemporanea.<br />
+							Dalla vocazione interdisciplinare, il LookAtFestival presenta una rassegna di opere esemplari nel campo della comunicazione artistica audiovisiva, organizzando nel periodo della mostra importanti performance musicali di livello internazionale legate alle nuove espressioni della musica elettronica e sperimentale, proponendosi in area toscana e 
+							nazionale come punto di riferimento per il pubblico interessato alle arti visive e alla musica. LookAtFestival  è all’avanguardia perché al suo interno convivono tutte le più attuali forme artistiche audiovisive: <br />
+							visual art, video live performance, videoinstallazioni e ambienti interattivi.</p>
+						<p>Il 2007 è l’anno d’esordio. La location della mostra e degli eventi musicali è la suggestiva cornice della Ex-Manifattura Tabacchi, situata nel centro storico di Lucca. 
+							La manifestazione nasce da una collaborazione di artisti locali, sia per quanto riguarda concezione e allestimento delle opere che per gli eventi musicali. 
+							La buona risposta di critica e pubblico è immediata e inaspettata. 
+							Nel 2008 il progetto continua a crescere, si riconferma la collaborazione con la Provincia e il Comune di Lucca, arriva l’appoggio della Regione Toscana e del Festival della Creatività e vari sponsor sostengono l’evento.</p>
+					</div>
+					<div class="festivalPhoto">sdsd</div>
+					<div class="story">
+						<h1 class="storyTitle">Story</h1>
+						<p>L’Ex-Manifattura Tabacchi resta ancora la sede espositiva. 
+							Il festival si apre alle collaborazioni internazionali: cinque artisti spagnoli vengono affiancati a cinque artisti italiani. 
+							Altra novità è l’istituzione di un bando di concorso per videoartisti emergenti della Toscana. 
+							La sezione musica del festival si evolve e la line up coinvolge musicisti di fama nazionale e internazionale. 
+							Nel 2009 LookAtFestival affida la cura della mostra Luci(di)corpi e del catalogo a Elena Marcheschi. 
+							Grazie a questa scelta sale il livello artistico dell’esposizione e il riscontro favorevole di pubblico e critica riconferma la collaborazione per il 2010.
+							L’edizione del 2009 è contrassegnata anche dai grandi concerti, la location viene spostata dalla Ex-Manifattura Tabacchi al più capiente Punto Fiera, i dj set di artisti internazionali fanno del festival un punto di riferimento per la musica elettronica. Alcuni dei videoartisti che hanno partecipato al Festival: 
+							Carles Congost, Ennio Bertrand, Francesco Arena, QQ, La Comida, Moneyless, Man- 
+							naManna, Fabio Bertini, Berto, LalbergO, Fèrmin jimenèz, Nacho Magro, Collettivo Boris 
+							Kaufman, Alessandro Amaducci, Louis Bode, Aurora Meccanica, Cilema Reisen, In_flux, 
+							Claudia Maina, Santifantifilm, Sara Taigher.</p>
+					</div>
+					<div class="storyPhoto"></div>
+				</div>
+				<div class="panel" id="videoart">
+					<h2 class="videoart_title">Videoart</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="panel" id="music">
+					<h2 class="music_title">Music</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="panel" id="info">
+					<h2 class="info_title">Info &amp; Dates</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="panel" id="contacts">
+					<h2 class="contacts_title">Contacts</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#sites">And some sites</a></p>
+				</div>
+				<div class="panel" id="partners_sponsors">
+					<h2 class="partners_sponsors_title">Partners &amp; Sponsors</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				
+			</div>
+		</div>
+		<div id="content-slider"></div>
+	</div>
+</div>
+<div id="image_holder" style="background: #ff0000;"> <img src="" id="image_down" class="main_image" alt='' /> <img src="" id="image_up" class="main_image" alt='' /> <img src="" id="image_right" class="main_image" alt='' /> <img src="" id="image_left" class="main_image" alt='' /> <img src="images/background.jpg" id="image_center" class="main_image" alt='' /> </div>
+</body>
+</html>

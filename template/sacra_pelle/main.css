@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: transparent url(images/bg.gif) 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
