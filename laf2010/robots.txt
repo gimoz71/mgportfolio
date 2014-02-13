@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 User-agent: *
 Allow: /
 
+=======
+User-agent: *
+Allow: /
+
+>>>>>>> remotes/origin/gimoz
