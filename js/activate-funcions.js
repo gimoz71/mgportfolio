@@ -132,7 +132,7 @@ $(document).ready(function() {
 								'<object width="720" height="576" type="application/x-shockwave-flash" data="images/gallery/3d/player.swf">' +
 									'<param name="movie" value="images/gallery/3d/player.swf" />' +
 									'<param name="flashvars" value="controlbar=over&amp;image=images/gallery/3d/oldstuff.jpg&amp;file=generationx.mp4" />' +
-									'<img src="images/gallery/3d/generationx_1.jpg" width="720" height="576" alt="Old Stuff" title="Questo browser non &egrave; in grado di riprodurre il video, Scaricalo da un link qu&igrave; sotto" />' +
+									'<img src="images/gallery/3d/generationx_1.jpg" width="720" height="576" alt="Sigla Generation X (1994)" title="Questo browser non &egrave; in grado di riprodurre il video, Scaricalo da un link qu&igrave; sotto" />' +
 								'</object>' +
 							'</video>' +
 							'<p><strong>Download Video:</strong>' +
@@ -163,12 +163,43 @@ $(document).ready(function() {
 								'<object width="720" height="576" type="application/x-shockwave-flash" data="images/gallery/3d/player.swf">' +
 									'<param name="movie" value="images/gallery/3d/player.swf" />' +
 									'<param name="flashvars" value="controlbar=over&amp;image=images/gallery/3d/oldstuff.jpg&amp;file=fieracavalli.mp4" />' +
-									'<img src="images/gallery/3d/fieracavalli_1.jpg" width="720" height="576" alt="Old Stuff" title="Questo browser non &egrave; in grado di riprodurre il video, Scaricalo da un link qu&igrave; sotto" />' +
+									'<img src="images/gallery/3d/fieracavalli_1.jpg" width="720" height="576" alt="Sigla Fieracavali (1995)" title="Questo browser non &egrave; in grado di riprodurre il video, Scaricalo da un link qu&igrave; sotto" />' +
 								'</object>' +
 							'</video>' +
 							'<p><strong>Download Video:</strong>' +
 								'Formato proprietario:	<a href="images/gallery/3d/fieracavalli.mp4">"MP4"</a> - ' +
 								'Formato Open:	<a href="images/gallery/3d/fieracavalli.ogv">"Ogg"</a>, <a href="images/gallery/3d/fieracavalli.webm">"WebM"</a>' +
+							'</p>'
+	});
+
+/*$("a.grouped_elements_movie5").fancybox({
+		'hideOnOverlayClick'	: true,
+		'width'			: 	720,
+		'height'		: 	576,
+		'type'			: 	'swf',
+		'swf'			: 	{
+			 'wmode'		: 'transparent',
+			'allowfullscreen'	: 'true'
+		}
+	});*/
+	
+	$("a.grouped_elements_movie6").fancybox({
+		'hideOnOverlayClick'	: true,
+		'width'			: 	640,
+		'height'		: 	360,
+		'content'		:	'<video width="640" height="360" controls autoplay>' +
+								'<source src="images/gallery/3d/cosmer.mp4"  type="video/mp4" />' +
+								'<source src="images/gallery/3d/cosmer.webm" type="video/webm" />' +
+								'<source src="images/gallery/3d/cosmer.ogv"  type="video/ogg" />' +
+								'<object width="720" height="576" type="application/x-shockwave-flash" data="images/gallery/3d/player.swf">' +
+									'<param name="movie" value="images/gallery/3d/player.swf" />' +
+									'<param name="flashvars" value="controlbar=over&amp;image=images/gallery/3d/oldstuff.jpg&amp;file=cosmer.mp4" />' +
+									'<img src="images/gallery/3d/cosmer_1.jpg" width="640" height="360" alt="Cosmer" title="Questo browser non &egrave; in grado di riprodurre il video, Scaricalo da un link qu&igrave; sotto" />' +
+								'</object>' +
+							'</video>' +
+							'<p><strong>Download Video:</strong>' +
+								'Formato proprietario:	<a href="images/gallery/3d/cosmer.mp4">"MP4"</a> - ' +
+								'Formato Open:	<a href="images/gallery/3d/cosmer.ogv">"Ogg"</a>, <a href="images/gallery/3d/cosmer.webm">"WebM"</a>' +
 							'</p>'
 	});
 
