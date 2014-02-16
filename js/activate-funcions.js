@@ -140,7 +140,39 @@ $(document).ready(function() {
 								'Formato Open:	<a href="images/gallery/3d/generationx.ogv">"Ogg"</a>, <a href="images/gallery/3d/generationx.webm">"WebM"</a>' +
 							'</p>'
 	});
+	
+	/*$("a.grouped_elements_movie5").fancybox({
+		'hideOnOverlayClick'	: true,
+		'width'			: 	720,
+		'height'		: 	576,
+		'type'			: 	'swf',
+		'swf'			: 	{
+			 'wmode'		: 'transparent',
+			'allowfullscreen'	: 'true'
+		}
+	});*/
+	
+	$("a.grouped_elements_movie5").fancybox({
+		'hideOnOverlayClick'	: true,
+		'width'			: 	720,
+		'height'		: 	576,
+		'content'		:	'<video width="720" height="576" controls autoplay>' +
+								'<source src="images/gallery/3d/fieracavalli.mp4"  type="video/mp4" />' +
+								'<source src="images/gallery/3d/fieracavalli.webm" type="video/webm" />' +
+								'<source src="images/gallery/3d/fieracavalli.ogv"  type="video/ogg" />' +
+								'<object width="720" height="576" type="application/x-shockwave-flash" data="images/gallery/3d/player.swf">' +
+									'<param name="movie" value="images/gallery/3d/player.swf" />' +
+									'<param name="flashvars" value="controlbar=over&amp;image=images/gallery/3d/oldstuff.jpg&amp;file=fieracavalli.mp4" />' +
+									'<img src="images/gallery/3d/fieracavalli_1.jpg" width="720" height="576" alt="Old Stuff" title="Questo browser non &egrave; in grado di riprodurre il video, Scaricalo da un link qu&igrave; sotto" />' +
+								'</object>' +
+							'</video>' +
+							'<p><strong>Download Video:</strong>' +
+								'Formato proprietario:	<a href="images/gallery/3d/fieracavalli.mp4">"MP4"</a> - ' +
+								'Formato Open:	<a href="images/gallery/3d/fieracavalli.ogv">"Ogg"</a>, <a href="images/gallery/3d/fieracavalli.webm">"WebM"</a>' +
+							'</p>'
+	});
 
+	// FLASH
 	
 	$("a.grouped_elements_flash1").fancybox({
 		'hideOnOverlayClick'	: true,
