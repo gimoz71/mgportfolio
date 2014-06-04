@@ -1,6 +1,6 @@
 // JavaScript Document
 
-var backgroundSrcs = new Array("images/header/head1.png","images/header/head2.png","images/header/head3.png","images/header/head4.png","images/header/head5.png","images/header/head6.png","images/header/head7.png")
+var backgroundSrcs = new Array("images/header/head1.png","images/header/head2.png","images/header/head3.png","images/header/head4.png","images/header/head5.png","images/header/head6.png","images/header/head7.png","images/header/head8.png","images/header/head9.png")
 
 /* RANDOM BACKGROUND */
 
