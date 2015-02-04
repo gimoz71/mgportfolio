@@ -222,6 +222,7 @@ $(document).ready(function() {
 	
 	$(".tools").tipTip({activate: "hover",maxWidth: "300px", edgeOffset: 0, attribute: "title"});
 	
+	//$.lazyLoadXT.onload.addClass = 'animated tada';
 	
 	/*$("img").lazyload({ 
 		placeholder : "images/grey.gif",
