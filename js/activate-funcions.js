@@ -223,11 +223,12 @@ $(document).ready(function() {
 	$(".tools").tipTip({activate: "hover",maxWidth: "300px", edgeOffset: 0, attribute: "title"});
 	
 	
-	$("img").lazyload({ 
+	/*$("img").lazyload({ 
 		placeholder : "images/grey.gif",
 		effect : "fadeIn",
+		threshold : 200,
 		failurelimit : 35
-	});
+	});*/
 	
 	
 	// Scroller follower
